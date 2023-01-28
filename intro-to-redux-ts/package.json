@@ -1,0 +1,19 @@
+{
+  "name": "intro-to-redux-ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.9.3"
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.9.1",
+    "redux": "^4.2.0"
+  }
+}
