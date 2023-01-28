@@ -1,0 +1,11 @@
+goos: darwin
+goarch: arm64
+pkg: git.garena.com/sea-labs-id/tariner/nata.nael/go-benchmark/benchmarks/fibo
+BenchmarkTestRecursiveFibonacci_10-10    	 6622134	       179.9 ns/op
+BenchmarkTestRecursiveFibonacci_20-10    	   53786	     22196 ns/op
+BenchmarkSequentialFibonacci_10-10       	320894295	         3.726 ns/op
+BenchmarkSequentialFibonacci_20-10       	174386212	         6.845 ns/op
+BenchmarkSequentialFibonacci_40-10       	88384767	        13.05 ns/op
+BenchmarkSequentialFibonacci_1000-10     	 3748710	       319.2 ns/op
+PASS
+ok  	git.garena.com/sea-labs-id/tariner/nata.nael/go-benchmark/benchmarks/fibo	10.038s
