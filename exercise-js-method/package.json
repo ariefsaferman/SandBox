@@ -1,0 +1,21 @@
+{
+  "name": "exercise-js-method",
+  "version": "1.0.0",
+  "description": "All tasks here need to be done with JavaScript Built-in Method. You can do this exercise to help you understand a lot about that topic.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "gitlab@git.garena.com:sea-labs-id/batch-05/arief-saferman/exercise-js-method.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^8.30.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "typescript": "^4.9.4"
+  }
+}
