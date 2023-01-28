@@ -1,0 +1,10 @@
+version: '3.4'
+
+services:
+  gintemplate:
+    image: gintemplate
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    ports:
+      - 8080:8080
