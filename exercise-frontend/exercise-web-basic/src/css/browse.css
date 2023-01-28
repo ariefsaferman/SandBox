@@ -1,0 +1,146 @@
+:root {
+  --primary: #0042c8;
+  --primary-text: #152c5b;
+  --secondary-text: #717171;
+  --gray-3: #828282;
+}
+
+.container {
+  font-family: Poppins;
+}
+
+.navbar-brand {
+  color: var(--primary);
+}
+
+.navbar .navbar-nav {
+  color: var(--secondary-text);
+}
+
+.navbar-nav .nav-item .active {
+  color: var(--primary);
+}
+
+ul.navbar-nav a:hover {
+  color: var(--primary);
+}
+
+/* TITLE-SECTION ============================*/
+
+.title_page {
+  margin-top: 2.5rem;
+  text-align: center;
+  color: var(--primary-text);
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 45px;
+}
+
+.subtitle_page {
+  margin-top: 1rem;
+  text-align: center;
+  color: var(--secondary-text);
+  font-size: 18px;
+  line-height: 27px;
+}
+
+/* LIST-SECTION ============================*/
+
+.list_section {
+  margin-top: 3.25rem;
+}
+
+.col_span {
+  margin-bottom: 3.75rem;
+}
+
+.col .card {
+  width: 263px;
+  height: 350px;
+}
+
+.col .card::after {
+  position: absolute;
+  content: "";
+  min-height: 100%;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 0.1),
+    rgba(0, 0, 0, 1)
+  );
+  background-size: cover;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+.card img:hover {
+  margin-top: -8px;
+}
+
+.card-img-overlay {
+  z-index: 1;
+}
+
+.card-text {
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffff;
+}
+
+/* PAGINATION-SECTION ============================*/
+
+.pagination_section .text_pagination h5 {
+  text-align: center;
+}
+
+/* FOOTER-SECTION ============================*/
+.footer_section {
+  margin-top: 8.125rem;
+}
+.social_title {
+  color: var(--primary);
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: 30px;
+}
+
+.social_subtitle {
+  color: var(--secondary-text);
+}
+
+.social_span_text {
+  color: var(--secondary-text);
+}
+
+.copyright_text {
+  text-align: center;
+  font-family: Poppins;
+  color: var(--secondary-text);
+  font-size: 12px;
+  line-height: 18px;
+  margin-top: 23px;
+  margin-bottom: 40px;
+}
+
+.footer_title {
+  color: var(--primary);
+  font-weight: 500;
+  font-family: Poppins;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 12px;
+}
+
+.footer_item {
+  color: var(--secondary-text);
+  font-weight: 400;
+  font-family: Poppins;
+  font-size: 12px;
+  line-height: 18px;
+  margin-bottom: 8px;
+}
