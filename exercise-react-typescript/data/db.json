@@ -1,0 +1,110 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "test",
+      "email": "test@gmail.com",
+      "password": "test"
+    },
+    {
+      "email": "arief@gmail.com",
+      "password": "$2a$10$8bChZfPhCrAvBHm.kOBq9.RTCOnMiVwG2eFhSj2N/s3MrssQU8Ozy",
+      "username": "arief",
+      "id": 2
+    },
+    {
+      "email": "andra@gmail.com",
+      "password": "$2a$10$b/7zizUmNFyjsrEfuGEOge/k6.5BhS6TC.452NpIV8JzwZb12gR1i",
+      "userName": "asdfadf",
+      "id": 3
+    },
+    {
+      "email": "and@gmail.com",
+      "password": "$2a$10$qPY77tYEIt0HkWtZGZNP/.bO4A4yHzfQ4lWR/D1LkZypb0004Th5W",
+      "userName": "asdfkjasdf",
+      "id": 4
+    }
+  ],
+  "books": [
+    {
+      "id": 2,
+      "title": "Book about Go",
+      "description": "Dave",
+      "category": "Web development",
+      "image": "https://images.examples.com/wp-content/uploads/2019/01/Fantasy-Book-Cover-Template.jpg",
+      "price": 100.75,
+      "rating": {
+        "rate": 3,
+        "count": 50
+      }
+    },
+    {
+      "id": 3,
+      "title": "Learn Javascript",
+      "price": 150.95,
+      "description": "John",
+      "category": "Web development",
+      "image": "https://images.examples.com/wp-content/uploads/2019/01/Fantasy-Book-Cover-Template.jpg",
+      "rating": {
+        "rate": 3.1,
+        "count": 115
+      }
+    },
+    {
+      "id": 4,
+      "title": "Mobile Development with React Native",
+      "price": 90.15,
+      "description": "Steve",
+      "category": "Web development",
+      "image": "https://images.examples.com/wp-content/uploads/2019/01/Fantasy-Book-Cover-Template.jpg",
+      "rating": {
+        "rate": 5,
+        "count": 115
+      }
+    },
+    {
+      "id": 5,
+      "title": "Android Oreo",
+      "price": 99.99,
+      "description": "David",
+      "category": "Web development",
+      "image": "https://images.examples.com/wp-content/uploads/2019/01/Fantasy-Book-Cover-Template.jpg",
+      "rating": {
+        "rate": 3.9,
+        "count": 79
+      }
+    },
+    {
+      "title": "ASALAJA",
+      "description": "asdf",
+      "category": "Web Development",
+      "image": "asdfasdf",
+      "price": 10000,
+      "id": 6
+    },
+    {
+      "title": "adsfadf",
+      "description": "adsf",
+      "category": "Web Development",
+      "image": "asdfasdf",
+      "price": 1000,
+      "id": 7
+    },
+    {
+      "title": "adf",
+      "description": "asd",
+      "category": "Web Development",
+      "image": "asdf",
+      "price": 123,
+      "id": 8
+    },
+    {
+      "title": "BOOK OF FIRE",
+      "description": "ASDFADF",
+      "category": "Backend",
+      "image": "BUKAN IMAGE",
+      "price": 10000,
+      "id": 11
+    }
+  ]
+}
