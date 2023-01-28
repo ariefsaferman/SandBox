@@ -1,0 +1,22 @@
+{
+  "name": "fake-data",
+  "version": "1.0.0",
+  "description": "Faking millions of data using faker",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "fake",
+    "data"
+  ],
+  "author": "andri-winata",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "pg": "^8.8.0"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^7.6.0"
+  }
+}
