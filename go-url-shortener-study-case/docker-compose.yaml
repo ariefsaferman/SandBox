@@ -1,0 +1,48 @@
+version: "3.9"
+services:
+  app:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile_app
+      target: dev
+    depends_on:
+      - db
+      - cache
+    volumes:
+      - ./backend/config:/app/config
+    ports:
+      # should be matched with the one in the config.toml
+      - 8080:8080
+  worker:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile_worker
+      target: dev
+    depends_on:
+      - db
+      - cache
+    volumes:
+      - ./backend/config:/app/config
+  db:
+    image: postgres:14-alpine
+    restart: always
+    env_file:
+      - ./env/postgres.env
+    ports:
+      #  changed to 8081 exposed to host, to prevent conflict with existing installed Postgres
+      - 8081:5432
+    volumes:
+      - db:/var/lib/postgresql/data
+  cache:
+    image: redis:6-alpine
+    restart: always
+    ports:
+      - 6380:6379
+    volumes:
+      - cache:/data
+    command: ["redis-server", "--bind", "cache", "--port", "6380"]
+volumes:
+  db:
+    driver: local
+  cache:
+    driver: local
